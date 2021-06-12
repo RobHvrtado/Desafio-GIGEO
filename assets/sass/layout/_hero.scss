@@ -1,0 +1,41 @@
+.hero__section {
+    background-color:white;
+    color:black;
+    width: 100%;
+    height:auto;
+    display: inline-block;
+    right:200px;
+
+    &__name {
+        text-align:left;
+    }
+
+    &__photo {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        border-radius: 50%;
+        padding-top: 15px;
+        margin-left: 20px;
+        margin-bottom: auto;      
+    }  
+    
+    &__title {
+
+        
+        font-family: $montserrat;
+        color: black;
+        margin-top: 20px;
+        margin-left: 2rem;  
+        text-align: left;
+    }
+
+    &__text {
+        margin-left: 2rem;
+    }
+
+}
+
+
+
+
